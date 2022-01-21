@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Menu do Banco</title>
+</head>
+
+<body>
+    <div>
+
+        <form id="optionMenu">
+            <label>Menu</label><br><br>
+            <button type="button" name="submitClient" id="submitClient">Cadastrar Novo Cliente</button><br><br>
+            <button type="button" name="checkAccount" id="checkAccount">Menu de Conta Bancária</button><br><br>
+        </form>
+    </div>
+    <div>
+        <form id="submitClientForm" method="post" hidden>
+            <label>Novo Cliente</label><br><br>
+            <label for="name">Nome</label><br>
+            <input type="text" id="name"><br>
+            <label for="regs">CPF</label><br>
+            <input type="text" id="regs"><br>
+            <button type="button" name="submit">Go</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
